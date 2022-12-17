@@ -1,7 +1,17 @@
 [package]
 name = "wasm-nn"
+authors = ["0xArty <0xArty@protonmail.com>"]
 version = "0.1.0"
 edition = "2021"
+description = """
+wasm-nn is a deep learning framework for WebAssembly.
+"""
+documentation = "https://docs.rs/wasm-nn"
+repository = "https://github.com/0xArty/wasm-nn"
+readme = "README.md"
+license = "MIT"
+keywords = ["machine-learning", "neural-network", "deep-learning", "wasm"]
+
 
 [lib]
 crate-type = ["cdylib", "rlib"]
